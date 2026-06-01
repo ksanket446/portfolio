@@ -51,7 +51,7 @@ export default function Footer() {
             <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200">
               <FaLinkedin size={16} /> LinkedIn
             </a>
-            <a href="#" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200">
               <FaFileAlt size={16} /> Resume
             </a>
           </div>

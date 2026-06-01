@@ -63,7 +63,9 @@ export default function Hero() {
                 View Projects
               </Link>
               <a 
-                href="#" 
+                href="/resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center text-center border border-white/20 text-gray-300 rounded-full px-8 py-3 md:py-3.5 text-[14px] font-semibold tracking-wider hover:border-white hover:text-white hover:bg-white/5 transition-all duration-300 cursor-pointer uppercase"
               >
                 Resume
