@@ -4,8 +4,8 @@ export const personalInfo = {
   email: "ksanket446@gmail.com",
   phone: "+91-6204838808",
   location: "Dhanbad, Jharkhand",
-  github: "https://github.com/",
-  linkedin: "https://linkedin.com/",
+  github: "https://github.com/ksanket446",
+  linkedin: "https://www.linkedin.com/in/sanket-kumar-19a0252a0/",
   shortBio: "Final-year B.Tech Computer Science student at KIIT with hands-on experience in full-stack web development (Java, Spring Boot, PostgreSQL, React.js) and machine learning/NLP (Python, Scikit-learn). Built 4 end-to-end applications applying MVC architecture, JWT security, REST APIs, and Agile practices. Seeking a Software Engineering Internship to contribute to scalable, production-ready systems.",
 };
 
@@ -75,14 +75,24 @@ export const education = {
   degree: "B.Tech – Computer Science and Engineering",
   institution: "KIIT, Bhubaneswar",
   duration: "Jul 2023 – Present",
-  details: "GPA: 7.57/10 (5 semesters) | Coursework: DSA, DBMS, OOP, OS, Computer Networks"
+  details: "GPA: 7.61/10 (6th semester) | Coursework: DSA, DBMS, OOP, OS, Computer Networks",
+  logo: "/image/college.png"
 };
 
 export const highSchool = {
   degree: "Senior Secondary (PCM, CBSE)",
   institution: "Delhi Public School, Dhanbad",
   duration: "2023",
-  details: "Score: 80%"
+  details: "Score: 79.8%",
+  logo: "/image/school.png"
+};
+
+export const secondarySchool = {
+  degree: "Secondary School (CBSE)",
+  institution: "Delhi Public School, Dhanbad",
+  duration: "2021",
+  details: "Score: 92.2%",
+  logo: "/image/school.png"
 };
 
 export const certifications = [
