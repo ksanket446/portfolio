@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .ambient-shadow {
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+    }
+    
+    .dark .ambient-shadow {
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    }
+    
+    .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-lift:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    }
+
+    .dark .hover-lift:hover {
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    }
+}
